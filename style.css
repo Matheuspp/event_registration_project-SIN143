@@ -67,7 +67,7 @@ label {
   }
 }
 
-.room {
+.logo {
   width: 50%;
   height: 100%;
   background: url(https://besthqwallpapers.com/Uploads/8-5-2020/132559/thumb2-night-summer-party-4k-beach-abstract-nightscapes-concert.jpg) no-repeat center center;
@@ -93,16 +93,16 @@ label {
   font-size: 1.8rem;
 }
 
-.text-cover .price {
+.text-cover .disciplina {
   color: #e67e22;
 }
 
-.text-cover .price span {
+.text-cover .disciplina span {
   font-size: 1.4rem;
   font-weight: 700;
 }
 
-.payment {
+.cadastro {
   width: 50%;
   height: 100%;
   color: #34495e;
@@ -111,11 +111,11 @@ label {
   position: absolute;
 }
 
-.payment-info h2 {
+.cadastro-info h2 {
   margin-bottom: 2rem;
 }
 
-.payment-info {
+.cadastro-info {
   padding: 20px;
 }
 
@@ -161,10 +161,3 @@ input[type=text]{
 }
 
 
-.possui label {
-    font: 1rem 'Fira Sans', sans-serif;
-}
-
-.wifi {
-    margin: .4rem;
-}

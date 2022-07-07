@@ -2,7 +2,7 @@
 <html lang="pt-br" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - DailyUI#002 - Checkout Form</title>
+  <title>SIN 143 - PROJETO</title>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700'><link rel="stylesheet" href="./style.css">
 
 </head>
@@ -10,18 +10,17 @@
 <!-- partial:index.partial.html -->
 <body>
   <div class="model">
-    <div class="room">
+    <div class="logo">
       <div class="text-cover">
         <h1>App de registro de eventos</h1>
-        <p class="price"> <span>SIN 143</span> </p>
+        <p class="disciplina"> <span>SIN 143 </span>  </p>
         <hr>
-        <p>Sistemas de Informação</p>
-        <p>Universidade Federal de Viçosa</p>
+        <p>Exibir eventos cadastrados</p>
       </div>
     </div>
-    <div class="payment">
+    <div class="cadastro">
 
-      <div class="payment-info">
+      <div class="cadastro-info">
         <h2>Ficha de Cadastro</h2>
         <form>
         <label>Nome do evento</label>
@@ -42,23 +41,24 @@
           <legend>Possui:</legend>
       
           <div>
+            <label for="wifi">WIFI</label>
             <input type="checkbox" class="wifi" name="wifi"
                    checked>
-            <label for="wifi">WIFI</label>
+            
           </div>
       
           <div>
-            <input type="checkbox" class="estac_gratis" name="estac_gratis">
             <label for="estac_gratis">Estacionamento grátis</label>
+            <input type="checkbox" class="estac_gratis" name="estac_gratis">
           </div>
           <div>
+            <label for="bebid_gratis">Bebida grátis</label> 
             <input type="checkbox" class="bebid_gratis" name="bebid_gratis">
-            <label for="bebid_gratis">Bebida grátis</label>
           </div>
       </fieldset>
 
         <br>
-        <input class="btn" type="submit" value="Book Securly">
+        <input class="btn" type="submit" value="Cadastrar">
       </form>
       </div>
     </div>
