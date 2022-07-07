@@ -12,57 +12,52 @@
   <div class="model">
     <div class="room">
       <div class="text-cover">
-        <h1>Danny's House</h1>
-        <p class="price"> 120.00 <span>USD</span> / Night</p>
+        <h1>App de registro de eventos</h1>
+        <p class="price"> <span>SIN 143</span> </p>
         <hr>
-        <p>Entire Home for 1 guest</p>
-        <p>Tues, Oct 2, 2017 to Friday, Oct 5, 2017</p>
+        <p>Sistemas de Informação</p>
+        <p>Universidade Federal de Viçosa</p>
       </div>
-    </div><div class="payment">
-      <div class="receipt-box">
-        <h3>Reciept Summary</h3>
-        <table class="table">
-          <tr>
-            <td>120 x 2 nights</td>
-            <td>240.00 USD</td>
-          </tr>
-          <tr>
-            <td>Discount</td>
-            <td>0 USD</td>
-          </tr>
-          <tr>
-            <td>Subtotal</td>
-            <td>240 USD</td>
-          </tr>
-          <tr>
-            <td>Tax</td>
-            <td>10 USD</td>
-          </tr>
-          <tfoot>
-            <tr>
-              <td>Sum</td>
-              <td>$180</td>
-            </tr>
-          </tfoot>
-        </table>
-      </div>
+    </div>
+    <div class="payment">
+
       <div class="payment-info">
-        <h3>Ficha de Cadastro</h3>
+        <h2>Ficha de Cadastro</h2>
         <form>
         <label>Nome do evento</label>
-        <input type="text" name="firstname" value="Aniversário">
+        <input type="text" name="firstname" value="">
         <label>Descrição do evento</label>
-        <input type="text" name="lastname" value="Aniversário da Valcidisnéia de 99 anos">
+        <input type="text" name="lastname" value="">
         <label>Data de início</label>
         <input type="date" name="datainicio">
         <label>Data de encerramento</label>
         <input type="date" name="datafim">
         <label>Tipo de evento</label>
-        <input type="text" name="tipoevento" value="Adulto">
+        <input type="text" name="tipoevento" value="">
         <label>Banner do evento</label>
         <input type="file" name="imgevento">
+        <br>
 
-        <br><br>
+        <fieldset class="possui">
+          <legend>Possui:</legend>
+      
+          <div>
+            <input type="checkbox" class="wifi" name="wifi"
+                   checked>
+            <label for="wifi">WIFI</label>
+          </div>
+      
+          <div>
+            <input type="checkbox" class="estac_gratis" name="estac_gratis">
+            <label for="estac_gratis">Estacionamento grátis</label>
+          </div>
+          <div>
+            <input type="checkbox" class="bebid_gratis" name="bebid_gratis">
+            <label for="bebid_gratis">Bebida grátis</label>
+          </div>
+      </fieldset>
+
+        <br>
         <input class="btn" type="submit" value="Book Securly">
       </form>
       </div>

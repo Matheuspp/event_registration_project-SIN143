@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 /*   border: 1px solid black; */
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   padding: 10% 0;
   position: relative;
   min-height: 100vh;
-  background: #34495e;
+  background: #394564;
   display: flex;
   justify-content: center;
     animation: fadein 5s;
@@ -70,7 +70,7 @@ label {
 .room {
   width: 50%;
   height: 100%;
-  background: url(https://images.unsplash.com/photo-1470274038469-958113db2384?auto=format&fit=crop&w=1875&q=80) no-repeat center center;
+  background: url(https://besthqwallpapers.com/Uploads/8-5-2020/132559/thumb2-night-summer-party-4k-beach-abstract-nightscapes-concert.jpg) no-repeat center center;
   background-size: cover;
   display: inline-block;
   vertical-align: top;
@@ -107,15 +107,11 @@ label {
   height: 100%;
   color: #34495e;
   display: inline-block;
+  vertical-align: right;
+  position: absolute;
 }
 
-.receipt-box {
-  padding: 20px 20px;
-  border-bottom: 1px solid #34495e;
-}
-
-.receipt-box h3,
-.payment-info h3 {
+.payment-info h2 {
   margin-bottom: 2rem;
 }
 
@@ -135,8 +131,8 @@ input[type=text]{
 }
 
 .btn {
-  padding: 15px 25px;
-  border: none;
+  padding: 12px 20px;
+  border: 1px;
   color: white;
   width: 100%;
   display: block;
@@ -162,4 +158,13 @@ input[type=text]{
 
 .table td:nth-child(2) {
   text-align: right;
+}
+
+
+.possui label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+.wifi {
+    margin: .4rem;
 }
